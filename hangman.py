@@ -1,6 +1,6 @@
 import random #import random function
 
-choices = ["banana","orange","grapes","apple","watermelon","mango"] 
+choices = ["banana","orange","grapes","apple","watermelon","mango","lychee"] 
 guessLimit = 0 # setting initial values to 0
 guesses = 0
 
@@ -8,7 +8,9 @@ guesses = 0
 def choose_word(fruits): # function to randomly choose a fruit
     word = random.choice(fruits)
     print (fruits)
-    
+
+
+
 '''
 while guessLimit >= guesses:
     for letter in word:
