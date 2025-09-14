@@ -1,28 +1,37 @@
-import random #import random function
+import random
 
-choices = ["banana","orange","grapes","apple","watermelon","mango","grapefruit"] 
-guessLimit = 0 # setting initial values to 0
+choices = ["banana","orange","grapes","apple","watermelon","mango"]
+word = random.choice(choices)
+word = list(word)
+print (word)
+guessLimit = 0
 guesses = 0
-
-
-def choose_word(fruits): # function to randomly choose a fruit
-    word = random.choice(fruits)
-    print (fruits)
-
+guessLimit = len(word) + 2
+print (guessLimit)
+    
+for x in range(guessLimit):
+	letterGuess = input("Guess one letter: ")
+	print(letterGuess)
+	print("guess counter: ", guesses)
+	guesses += 1
+        #print(letterGuess)        
+	#print("guess counter:", guesses)
+	#guesses += 1
+	
 '''
 while guessLimit >= guesses:
     for letter in word:
+        guesses += 1
         letterGuess = input ("Guess one letter: ")
         print (letter)
 
         if letterGuess == letter:
             print (letterGuess)
             print("correct")
-            guesses += 1
+            
             
         elif letterGuess != letter:
             print("Wrong letter, try again!")
-            guesses += 1
-
+          
         print ("guess counter:", guesses)
 '''
