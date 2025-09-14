@@ -5,7 +5,7 @@ guessLimit = 0
 guesses = 0
 
 
-def choose_word(fruits):
+def choose_word(fruits): # function to randomly choose a fruit
     word = random.choice(fruits)
     print (fruits)
     
