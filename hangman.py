@@ -7,7 +7,7 @@ guesses = 0
 
 def choose_word(fruits): # function to randomly choose a fruit
     word = random.choice(fruits)
-    print (fruits)
+    print (fruits) #print the chosen word
 
 
 
