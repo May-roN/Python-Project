@@ -1,6 +1,6 @@
-import random
+import random #import random function
 
-choices = ["banana","orange","grapes","apple","watermelon","mango"]
+choices = ["banana","orange","grapes","apple","watermelon","mango"] 
 guessLimit = 0
 guesses = 0
 
