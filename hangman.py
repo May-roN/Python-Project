@@ -1,7 +1,7 @@
 import random #import random function
 
 choices = ["banana","orange","grapes","apple","watermelon","mango"] 
-guessLimit = 0
+guessLimit = 0 # setting initial values to 0
 guesses = 0
 
 
